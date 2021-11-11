@@ -1,3 +1,6 @@
+.fixed{
+    position: sticky;
+}
 body{
     font-family: Helvetica, arial, sans-serif;
 }
@@ -5,57 +8,115 @@ body{
     display: flex;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .just-content-end{
     justify-content: end;
 }
-.black{
-    background-color: black;
+
+.just-content-center{
+    justify-content: center;
 }
+
+
+/* color */
 
 .white{
     color: white;
+}
+
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
 }
 
 .grey{
     background-color: grey;
 }
 
+.color-grey{
+    color: grey;
+}
+.blue{
+    color: rgb(60, 60, 245);
+}
+
 .pd{
     padding: 0.5em;
 }
 
+/* height */
+
+.height{
+    height: 300px;
+}
+.height-100{
+    height: 100vh;
+}
 .height-logo{
     width: 100%;
     height: 40px;
 }
 
-.width{
-    width: 50%;
+.width-30{
+    max-width: 30%;
 }
+.width-50{
+    max-width: 100%;
+}
+
+/* .w-100{
+    width: 100%;
+} */
+
+/* font */
+
+.fs-7{
+    font-size: 3rem;
+}
+
+/* border */
+
 .rondend-6{
     border-radius: 50px;
 }
 
+.radius{
+    border-radius: 10px;
+}
+
+.radius-blue{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: blue;
+}
+
+
+
+
+.border{
+    border: 2px solid black;
+}
+
+/* jambo */
+
 .jambo {
     background-image: url('../img/jumbo-bg.png');
-    height: 40em;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    
+ 
 }
-
 .jambo-logo{
     max-width: 100%;
-    height: 50px;
-    
+    height: 50px; 
     background-repeat: no-repeat;
     object-fit: cover;
-    
-}
-
-.border{
-    border: 2px solid black;
+ 
 }
