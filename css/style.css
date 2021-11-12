@@ -1,6 +1,8 @@
 .fixed{
-    position: sticky;
+    position: fixed;
+   
 }
+
 body{
     font-family: Helvetica, arial, sans-serif;
 }
@@ -91,6 +93,10 @@ body{
 
 .width-10{
     max-width: 10%;
+}
+
+.width-100{
+    width: 100%;
 }
 
 
