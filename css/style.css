@@ -21,6 +21,10 @@ body{
     justify-content: center;
 }
 
+.align-self{
+    align-self: center;
+}
+
 
 /* color */
 
@@ -31,6 +35,9 @@ body{
 .black{
     background-color: black;
 }
+.color-black{
+    color: black;
+}
 .red{
     background-color: red;
 }
@@ -39,8 +46,20 @@ body{
     background-color: grey;
 }
 
+.grey-light{
+    background-color: #BEBCBB;
+}
+
+.grey-dark{
+    background-color: #1F1F1F;
+}
+
 .color-grey{
     color: grey;
+}
+
+.btn-color{
+    background-color: #D9DADC;
 }
 .blue{
     color: rgb(60, 60, 245);
@@ -67,7 +86,11 @@ body{
     max-width: 30%;
 }
 .width-50{
-    max-width: 100%;
+    max-width: 50%;
+}
+
+.width-10{
+    max-width: 10%;
 }
 
 
@@ -93,10 +116,6 @@ body{
     border-style: solid;
     border-color: blue;
 }
-
-
-
-
 .border{
     border: 2px solid black;
 }
@@ -111,22 +130,56 @@ body{
     background-size: cover;
  
 }
-.jambo-logo{
-    max-width: 100%;
-    height: 50px; 
-    background-repeat: no-repeat;
-    object-fit: cover;
- 
+
+.cursor{
+    cursor: pointer;
+}
+
+.opacity{
+    opacity: 0.5;
+}
+
+.opacity.col-4:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: 1px solid blue;
 }
 
 
-.crop {
-    height: auto;
-    width: 20%;
-    overflow: hidden;
-   }
-   .crop img {
-    height: auto;
+.jambo-2 {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     width: 100%;
-    min-width: 20%;
-   }
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+/* media-query-accessori */
+
+@media screen and (max-width:992px ) {
+    .col-4 p{
+        display: none;
+    }
+}
+
+/* media-query-img-soulstorm */
+
+
+@media screen and (max-width:768px) {
+
+    .soul-storm img{
+        display: none;
+    }
+    
+}
+
+
+/* nuovi-sconti */
+
+@media screen and (max-width:992px ) {
+    .sconti-nuovi{
+        max-width: 80%;
+    }
+}
+
