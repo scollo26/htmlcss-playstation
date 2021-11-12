@@ -70,9 +70,7 @@ body{
     max-width: 100%;
 }
 
-/* .w-100{
-    width: 100%;
-} */
+
 
 /* font */
 
@@ -120,3 +118,15 @@ body{
     object-fit: cover;
  
 }
+
+
+.crop {
+    height: auto;
+    width: 20%;
+    overflow: hidden;
+   }
+   .crop img {
+    height: auto;
+    width: 100%;
+    min-width: 20%;
+   }
