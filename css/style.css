@@ -137,11 +137,13 @@ body{
 
 .opacity{
     opacity: 0.5;
+    transition: 1s;
 }
 
 .opacity.col-4:hover{
     opacity: 1;
     cursor: pointer;
+    transform: scale(1.2);
     border-bottom: 1px solid blue;
 }
 
@@ -183,3 +185,18 @@ body{
     }
 }
 
+
+
+
+.verticalpan img {
+    margin-top: 0px;
+    transition: margin 0.5s ease;
+}
+.verticalpan img:hover {
+    margin-top: -20px;
+} 
+
+a{
+    color: white;
+    text-decoration: none;
+}
