@@ -100,6 +100,11 @@ body{
 }
 
 
+.padding-top{
+    padding-top: 6em;
+}
+
+
 
 /* font */
 
@@ -124,6 +129,15 @@ body{
 }
 .border{
     border: 2px solid black;
+}
+
+/* header */
+.header-bottom .dropdown-menu li img{
+    width: 5em;
+}
+
+.width-logo{
+    width: 50%;
 }
 
 /* jambo */
